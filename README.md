@@ -4,6 +4,7 @@ Bu proje, **Microsoft Online Yaz Stajı** kapsamında geliştirilmiş, **Microso
 
 Sistem, harici internet bağlantısına ihtiyaç duymadan, kullanıcıların yüklediği PDF, Word ve TXT belgelerini metin parçalarına (chunks) böler, vektör dizilerine (embeddings) dönüştürür ve SQLite veritabanına kaydeder. Kullanıcı soru sorduğunda en alakalı metin parçalarını Kosinüs Benzerliği ile çekerek kaynak gösterimli (citationlı) ve halüsinasyonsuz Türkçe yanıtlar üretir.
 
+Proje sunum videosu:https://youtu.be/1kc6DTa07Bw
 ---
 
 ## 🎯 Proje Özellikleri
@@ -63,6 +64,7 @@ streamlit run app.py
 - `src/ingestion.py`: PDF/TXT/DOCX metin işleme ve vektör dönüştürücü.
 - `src/rag_engine.py`: Geri getirme (Retrieval), bağlam zenginleştirme ve Türkçe çıkarım motoru.
 - `requirements.txt`: Bağımlı Python kütüphaneleri.
+- https://youtu.be/1kc6DTa07Bw
 
 ---
 
